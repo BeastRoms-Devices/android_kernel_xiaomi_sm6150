@@ -523,7 +523,7 @@ int ufshcd_pltfrm_init(struct platform_device *pdev,
 	}
 
 	platform_set_drvdata(pdev, hba);
-
+	
 	pm_runtime_set_active(&pdev->dev);
 	pm_runtime_enable(&pdev->dev);
 
